@@ -1,0 +1,19 @@
+{
+  "name": "painter",
+  "version": "1.0.0",
+  "description": "develop for training",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutao/painter.git"
+  },
+  "author": "mutao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mutao/painter/issues"
+  },
+  "homepage": "https://github.com/mutao/painter#readme"
+}
