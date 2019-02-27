@@ -4,7 +4,8 @@
   "description": "develop for training",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "npx webpack",
+    "server": "npx webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/mutao/painter/issues"
   },
-  "homepage": "https://github.com/mutao/painter#readme"
+  "homepage": "https://github.com/mutao/painter#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "npx": "^10.2.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
 }
